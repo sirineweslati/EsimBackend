@@ -14,15 +14,8 @@ spring:
 
 server:
   port: 8444
-  ssl:
-    key-store: classpath:EsimBackKeystore.jks # Chemin vers le keystore
-    key-store-password: chirazisimm12 # Mot de passe du keystore
-    key-store-type: JKS # Type de keystore
-    key-alias: EsimBack # Alias du keystore
-    trust-store: classpath:bmwTrustStore.jks
-    trust-store-password: chirazisimm12
-  http:
-    port: -1
+
+
 
 
 

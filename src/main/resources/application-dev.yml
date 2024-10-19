@@ -1,0 +1,4 @@
+bmw_base_url: http://localhost:8442
+server:
+  ssl:
+    enabled: false

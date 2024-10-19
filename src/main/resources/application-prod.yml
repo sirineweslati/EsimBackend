@@ -1,0 +1,11 @@
+
+ bmw_base_url: https://localhost:8442
+ server:
+   ssl:
+     enabled: true
+     key-store: classpath:EsimBackKeystore.jks # Chemin vers le keystore
+     key-store-password: chirazisimm12 # Mot de passe du keystore
+     key-store-type: JKS # Type de keystore
+     key-alias: EsimBack # Alias du keystore
+     trust-store: classpath:bmwTrustStore.jks
+     trust-store-password: chirazisimm12
