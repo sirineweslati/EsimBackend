@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/database
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
+server:
+  port: 8444
+  ssl:
+    key-store: classpath:EsimBackKeystore.jks # Chemin vers le keystore
+    key-store-password: chirazisimm12 # Mot de passe du keystore
+    key-store-type: JKS # Type de keystore
+    key-alias: EsimBack # Alias du keystore
+    trust-store: classpath:bmwTrustStore.jks
+    trust-store-password: chirazisimm12
+  http:
+    port: -1
+
+
+
+
